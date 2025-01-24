@@ -1,0 +1,45 @@
+header {
+    background: url(images/dogs-shelter.jpg) 0 -200px no-repeat; 
+    background-size:cover; 
+    height: 250px; 
+    padding-top: 100px;
+    padding-left: 100px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+li{
+    display: inline;
+    padding: 0 20px;
+}
+li a:hover {
+    color: teal; /* mouseover */
+}
+li a:link {
+    color: #000;
+}
+li a:visited {
+    color: #753a30;
+}
+li a:active {
+    color: #fff;
+}
+nav {
+    background-color: rgb(255, 245, 238);
+    height: 50px;
+    text-align: center;
+    padding-top: 2px;
+}
+main {
+    margin: 50px;
+}
+main h1 {
+    color: teal;
+    font-family: arial;
+}
+footer{
+    height: 40px;
+    background-color: teal;
+    text-align: center;
+    padding-top: 20px;
+    color:rgb(211, 218, 240);
+    }
